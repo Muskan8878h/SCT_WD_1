@@ -15,7 +15,7 @@ nav {
 }
 nav.scrolled { background: #ec3c3c; padding: 10px 50px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
 .logo { display: flex; align-items: center; gap: 10px; font-weight: bold; font-size: 1.5rem; color: #333; }
-.logo img { width: 40px; height: 40px; }
+.logo img { width: 40px; height: 40px; border-radius: 50%; }
 .nav-links { list-style: none; display: flex; gap: 30px; }
 .nav-links li a { text-decoration: none; color: #333; font-weight: 500; position: relative; transition: color 0.3s; }
 .nav-links li a::after { content: ''; position: absolute; width: 0%; height: 2px; bottom: -5px; left: 0; background: #ec3c3c; transition: width 0.3s; }
