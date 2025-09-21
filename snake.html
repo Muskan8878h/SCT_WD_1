@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body { display:flex; justify-content:center; align-items:center; height:100vh ; flex-direction:column; }
+    canvas { border:2px solid #ec3c3c;}
+    h2 { margin-bottom:20px; }
+  </style>
+</head>
+<body>
+    <nav id="navbar">
+    <div class="logo">
+      <img src="assets/logo.png" alt="Logo">
+      <span>MyBrand</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-item">Home</a></li>
+      <li><a href="about.html" class="nav-item">About</a></li>
+      <li><a href="contact.html" class="nav-item">Contact</a></li>
+      <li><a href="login.html" class="nav-item">Login</a></li>
+      <li><a href="signup.html" class="nav-item">Sign Up</a></li>
+    </ul>
+  </nav>
+<section class="contact-section">
+  <h1>Snake Game</h1>
+  <canvas id="gameCanvas" width="400" height="400"></canvas><br>
+  <button id="startBtn">Start Game</button>
+</section>
+  <script src="js/snake.js"></script>
+</body>
+</html>
