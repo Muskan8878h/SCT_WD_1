@@ -20,7 +20,7 @@ nav.scrolled { background: #ec3c3c; padding: 10px 50px; box-shadow: 0 4px 10px r
 .nav-links li a { text-decoration: none; color: #333; font-weight: 500; position: relative; transition: color 0.3s; }
 .nav-links li a::after { content: ''; position: absolute; width: 0%; height: 2px; bottom: -5px; left: 0; background: #ec3c3c; transition: width 0.3s; }
 .nav-links li a:hover::after { width: 100%; }
-.nav-links li a:hover { color: #ec3c3c; }
+.nav-links li a:hover { color:red; }
 
 /* Hero */
 .hero { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background: linear-gradient(to right,rgba(74, 236, 230, 0.8),#ec3c3c); color:black; }
